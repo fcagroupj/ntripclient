@@ -10,3 +10,4 @@ the Internet.
     roslaunch ntripclient ntripclient.launch
     
 # Get more help 
+unzip ./src/src.zip to that folder, because there are too many files, please do manually
