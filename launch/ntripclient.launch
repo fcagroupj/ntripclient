@@ -1,0 +1,19 @@
+<!-- -*- mode: XML -*- -->
+<!-- run ntripclient rgb0,rgb1,depth0 -->
+
+<launch>
+  <arg name="server" default="mi.smartnetna.com"/>
+  <arg name="port"   default="9950"/>
+  <arg name="username" default="ste01565018"/>
+  <arg name="password" default="801655"/>
+  <arg name="serialport" default="15"/>
+
+  <node name="ntripclient_node" pkg="ntripclient" type="ntripclient_node" output="screen">
+    <param name="server" type="string" value="$(arg server)"/>
+    <param name="port"   type="int" value="$(arg port)"/>
+    <param name="username" type="string" value="$(arg username)"/>           
+    <param name="password" type="string" value="$(arg password)"/>     
+    <param name="serialport" type="int" value="$(arg serialport)"/>      
+    </node>
+
+</launch>
