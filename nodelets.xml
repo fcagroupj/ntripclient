@@ -1,0 +1,5 @@
+<library path="lib/libntripclient_nodelet">
+  <class name="ntripclient/ntripclientNodelet" type="ntripclient::ntripclientNodelet" base_class_type="nodelet::Nodelet">
+    <description>  ntripclient Nodelet </description>
+  </class>
+</library>
