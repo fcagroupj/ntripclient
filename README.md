@@ -9,5 +9,4 @@ the Internet.
 
     roslaunch ntripclient ntripclient.launch
     
-# Get more help at
-https://stla-swx-confluence.atlassian.net/wiki/spaces/PA/pages/555352585/NtripClient+ROS+node
+# Get more help 
